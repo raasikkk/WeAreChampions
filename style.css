@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+
+.champions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30 auto;
+}
+
+.container {
+    background-color: #1B1924;
+    max-width: 390px;
+    width: 100%;
+    min-height: 844px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 51px;
+}
+
+.logo_text {
+    margin-top: 17px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+#endorsementField {
+    width: 100%;
+    min-height: 118px;
+    background-color: #444059;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 8px;
+    margin-top: 19px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: none; /* Prevents resizing */
+}
+
+#endorsementField::placeholder {
+    color: #8F8F8F;
+    font-size: 15px;
+    position: absolute;
+    top: 20px; /* Adjust this value to match the top padding */
+    left: 20px; /* Adjust this value to match the left padding */
+    pointer-events: none; /* Prevents the placeholder from interfering with user input */
+}
+
+.textarea-container {
+    position: relative;
+    width: 100%;
+}
+
+.contacts_inputs {
+    gap: 9px;
+}
+
+#fromInputField, #toInputField {
+    max-width: 152px;
+    width: 100%;
+    min-height: 40px;
+    background-color: #444059;
+    color: #8F8F8F;
+    border: none;
+    border-radius: 8px;
+    margin-top: 9px;
+    padding: 10px;
+    font-family: 'Inter';
+}
+
+#fromInputField::placeholder, #toInputField::placeholder {
+    color: #8F8F8F;
+    font-size: 15px;
+    text-align: center;
+}
+
+#publishBtn {
+    width: 100%;
+    min-height: 61px;
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 8px;
+    color: #04131C;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.endorements_header {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#endorsementsLists {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#endorsementsLists li {
+    max-width: 317px;
+    width: 100%;
+    min-height: 131px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 13px;
+}
+
+.to, .from {
+    font-weight: 800
+}
